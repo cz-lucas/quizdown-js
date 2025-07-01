@@ -27,6 +27,6 @@
 {/if}
 
 <svelte:component
-    this="{componentMap[question.questionType]}"
-    question="{question}"
+    this={componentMap[question.questionType]}
+    {question}
 />
