@@ -7,7 +7,6 @@
 
   // Update question.selected whenever the answers array changes
   $effect(() => {
-    console.log('Updating question.selected:', question.answers.map((answer) => answer.id));
     question.selected = question.answers.map((answer) => answer.id);
   });
 </script>
